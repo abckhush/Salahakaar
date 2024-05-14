@@ -1,0 +1,45 @@
+#abc {
+  padding-top: 20px;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  flex-basis: 25%;
+  height: 500px;
+  align-items: center;
+  justify-content: space-around;
+}
+.avatar img {
+  flex: 1;
+  padding-top: 20px;
+  border-radius: 100%;
+  width: 120px;
+}
+.text {
+  flex: 2;
+  padding: 20px 10px 5px 10px;
+  text-align: center;
+}
+.name {
+  flex: 2;
+}
+.icon {
+  flex: 2;
+  font-size: 25px;
+}
+.icon a {
+  text-decoration: none;
+  color: #9a1750;
+  padding: 0 10px 0 10px;
+}

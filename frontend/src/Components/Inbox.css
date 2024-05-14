@@ -1,0 +1,288 @@
+/* Inbox.css */
+
+/* Container for the entire inbox */
+.inbox-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Left side: User list */
+.user-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+  height: calc(100vh - 50px); /* Adjust the height */
+  overflow-y: auto; /* Add scrollbar when content overflows */
+}
+
+/* Individual user item */
+.user {
+  cursor: pointer;
+  padding: 8px 10px; /* Adjust padding */
+  border-bottom: 1px solid #ddd; /* Add a border between users */
+  font-size: 14px; /* Adjust font size */
+  height: 4rem; /* Adjust height */
+}
+
+/* Highlight active user */
+.user.active {
+  background-color: #f0f0f0;
+}
+
+/* Style for the link */
+.user a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Right side: Conversation */
+.conversation {
+  width: 65%;
+  padding-left: 20px;
+  padding-bottom: 60px; /* Adjust padding for the input field and button */
+  position: relative; /* Position relative for absolute positioning of input field and button */
+  overflow-y: scroll; /* Make the container scrollable */
+  height: 80vh; /* Fixed height */
+}
+
+/* Style for the conversation messages */
+.message {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+/* Style for the sender */
+.sender {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style for the content */
+.content {
+  color: rgb(56, 56, 56);
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Style for the timestamp */
+.timestamp {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Style for the input field */
+input[type="text"] {
+  width: calc(100% - 70px); /* Adjust width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Positioning for the input field and button */
+.input-container {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+/* Inbox.css */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.selected:hover {
+  background-color: #0056b3;
+}
+
+textarea,
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.offer {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.offer-details {
+  margin-bottom: 10px;
+}
+
+.offer-details div {
+  margin-bottom: 5px;
+}
+
+.offer-details div:last-child {
+  margin-bottom: 0;
+}
+
+.confirmation-tag {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Container for the entire inbox */
+.inbox-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Increased max-width for wider columns */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Left side: User list */
+.user-list {
+  width: 25%; /* Adjusted width to 25% */
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+  height: calc(100vh - 50px); /* Adjust the height */
+  overflow-y: auto; /* Add scrollbar when content overflows */
+}
+
+/* Middle side: Conversation */
+.conversation {
+  width: 50%; /* Adjusted width to 50% */
+  padding-left: 20px;
+  padding-right: 20px; /* Added padding-right for spacing */
+  padding-bottom: 60px; /* Adjust padding for the input field and button */
+  position: relative; /* Position relative for absolute positioning of input field and button */
+  overflow-y: scroll; /* Make the container scrollable */
+  height: 80vh; /* Fixed height */
+}
+
+/* Right side: Third column */
+.third-column {
+  width: 25%; /* Adjusted width to 25% */
+  padding-left: 20px;
+  border-left: 1px solid #ccc;
+  height: calc(100vh - 50px); /* Adjust the height */
+  overflow-y: auto; /* Add scrollbar when content overflows */
+}
+
+
+button {
+  margin-top: 10px;
+  margin-right: 10px; /* Add margin between buttons */
+  padding: 8px 16px;
+  background-color: #9a1750; /* Change button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c04278; /* Change button color on hover */
+}
+
+.user {
+  cursor: pointer;
+  padding: 8px 10px; /* Adjust padding */
+  border-bottom: 1px solid #ddd; /* Add a border between users */
+  font-size: 18px; /* Adjusted font size */
+  height: 4rem; /* Adjust height */
+}
+
+.user.active{
+  font-weight: bold;
+  background-color: #9a1750;
+  color: white;
+}
+
+.user:hover{
+  background-color: #c04278;
+  color: white;
+}
+
+.offer {
+  border: 2px solid #9a1750; /* Border style for offers */
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px; /* Increase font size */
+}
+
+.offer-details div {
+  margin-bottom: 5px;
+  font-weight: bold; /* Make values in bold */
+}
+
+.offer-details div:last-child {
+  margin-bottom: 0;
+}

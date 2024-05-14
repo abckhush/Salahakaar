@@ -1,0 +1,132 @@
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  position: relative;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form label {
+  margin-bottom: 5px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  width: 100%;
+  height: 40px;
+  background-color: #9a1750;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #7c113b;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.steps-indicator {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.step-circle-wrapper {
+  position: relative;
+}
+
+.step-circle {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #9a1750;
+}
+
+.green-section,
+.grey-section {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.vertical-header {
+  position: absolute;
+  top: 25%;
+  left: 0px;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+
+.upload-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upload-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upload-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.upload-label {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #9a1750;
+}

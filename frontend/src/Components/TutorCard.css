@@ -1,0 +1,30 @@
+.tutor-card {
+  height: 14rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tutor-card img {
+  width: 15%;
+  border-radius: 4px;
+}
+
+.tutor-card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.tutor-card p {
+  margin: 5px 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.dis {
+  color: black;
+}

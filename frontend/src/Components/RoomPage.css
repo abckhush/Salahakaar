@@ -1,0 +1,18 @@
+.meeting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.meeting-box {
+  padding: 20px;
+  border: 2px solid #9a1750;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #c04278;
+  max-width: 800px; /* Adjust max-width as needed */
+}
+
+.rating-review-box {
+  /* Your existing styles for rating-review-box */
+}

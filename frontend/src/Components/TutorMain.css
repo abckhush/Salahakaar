@@ -1,0 +1,12 @@
+.header h1 {
+  font-size: 4rem;
+
+  font-family: "Fjalla One", sans-serif;
+}
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section {
+  display: flex;
+}

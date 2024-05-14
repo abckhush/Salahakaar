@@ -1,0 +1,189 @@
+.hero {
+  padding: 5px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 0 20px;
+  height: 95px; /* Reduced height */
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.inbox-icon {
+  color: #9a1750;
+}
+
+.username {
+  margin-right: 10px; /* Add margin to the right of the username */
+}
+
+/* Style for the login button */
+.login-btn {
+  border: 1px solid white; /* White border */
+  margin-left: 10px; /* Add margin to the left of the login button */
+  padding: 5px 10px; /* Add padding to the login button */
+  background-color: #9a1750; /* Background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.logout-btn {
+  margin-top: -5px;
+  border: 1px solid white; /* White border */
+  margin-left: 10px; /* Add margin to the left of the login button */
+  padding: 5px 10px; /* Add padding to the login button */
+  background-color: #9a1750; /* Background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.logout-btn:hover {
+  background-color: #7c113b;
+  color: white;
+}
+/* Style for the login button on hover */
+.login-btn:hover {
+  background-color: #7c113b;
+  color: white; /* Darker background color on hover */
+}
+
+.left {
+  flex: 1;
+  margin-right: -11.5rem;
+}
+
+.center {
+  flex: 2;
+  margin-left: -4.5rem;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+  margin-left: -16.5rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links li a:hover {
+  color: #9a1750;
+  font-style: italic;
+}
+
+.rectangle {
+  height: 95px;
+  border: #9a1750 2px solid;
+  background-color: white;
+  border-radius: 10px; /* Add border radius to the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add border radius */
+  margin-top: 20px;
+}
+
+.right123 {
+  flex: 1;
+  text-align: right;
+  display: flex; /* Add display flex */
+  align-items: center; /* Align items vertically */
+}
+
+.right123 .username {
+  margin-right: 10px;
+  margin-left: 30px;
+  font-size: 16px;
+}
+.right123 .username span {
+  font-weight: bold;
+} /* Add margin to the right of the username */
+.right123 .inbox-icon {
+  font-size: 18px;
+  margin-top: -2px;
+}
+
+.right123 .btn {
+  margin-left: 10px; /* Add margin to the left of the logout button */
+}
+
+.right123 .nav-links {
+  display: flex; /* Align links horizontally */
+}
+
+.right123 .nav-links li {
+  margin-right: 20px; /* Add margin between links */
+}
+.right123 {
+  flex: 1;
+  text-align: right;
+  display: flex; /* Add display flex */
+  align-items: center; /* Align items vertically */
+}
+
+.right123 .username {
+  margin-right: 10px;
+  margin-left: 30px;
+  font-size: 16px;
+}
+.right123 .username span {
+  font-weight: bold;
+} /* Add margin to the right of the username */
+.right123 .inbox-icon {
+  font-size: 18px;
+  margin-top: -2px;
+}
+
+.right123 .btn {
+  margin-left: 10px; /* Add margin to the left of the logout button */
+}
+
+.right123 .nav-links {
+  display: flex; /* Align links horizontally */
+}
+
+.right123 .nav-links li {
+  margin-right: 20px; /* Add margin between links */
+}
+
+.rectangle .btn {
+  border: 2px solid #9a1750;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #9a1750;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.rectangle .btn:hover {
+  background-color: #9a1750;
+  color: white;
+}

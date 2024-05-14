@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@zegocloud/zego-uikit-prebuilt": "^2.0.1",
+    "nodemon": "^3.1.0"
+  }
+}

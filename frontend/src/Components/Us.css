@@ -1,0 +1,102 @@
+.asdfg-us {
+  background-color: #9a1750;
+  height: 50vh;
+}
+
+.h-us h1 {
+  padding-top: 25px;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+}
+
+.container-us {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+#kkbb-us {
+  align-items: normal;
+}
+
+.card-us {
+  padding: 20px;
+  padding-left: 30px;
+  border: 1px solid #ddd;
+  margin: 50px;
+  margin-top: inherit;
+  width: 120vh; 
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content-us {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.profile-img-us {
+  border-radius: 50%;
+  width: 600px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.text-content-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links-us {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-links-us a {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #333;
+}
+
+.social-links-us a:hover {
+  color: #9a1750;
+}
+
+.point1-us {
+  display: flex;
+  height: 10vh;
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+.ptext-us {
+  flex: 2;
+  text-align: center;
+  width: 70%;
+}
+
+.pimg-us {
+  flex: 1;
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 100%; /* Adjust card width for small screens */
+  }
+
+  .profile-img {
+    width: 6vw; /* Adjust profile image size for small screens */
+    height: 6vw; /* Adjust profile image size for small screens */
+    margin-right: 0.5vw; /* Responsive margin */
+  }
+}
